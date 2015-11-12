@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Joey Tribbiani"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/ivPortait"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/portrait_height"
+        android:src="@drawable/joey"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:maxLines="8"
+        android:text="Joey Francis \' Joey \' Tribbiani, Jr. was presumably born in 1969 as he talks about having turned 13 in 1982. He comes from an Italian American family of eight children.
+        His father Joseph Tribbiani, Sr., after whom Joey is named, is a pipefitter and his mother\'s name is Gloria.
+        Joey has seven sisters: Mary Therese, Mary Angela, Dina, Gina, Tina, Veronica, and Cookie. Joey is from, and was presumably born in Queens, New York.
+        As a child, he was extremely accident prone. He also had an imaginary friend, Maurice, who was a space cowboy.
+        Joey is promiscuous and dim-witted, but very loyal and protective of his friends. As a struggling actor, he is constantly looking for work.
+        He was ordained as a minister in \'The One with the Truth About London\', and officiated at both Monica and Chandler and Phoebe and Mike\'s weddings.
+        It is revealed in The One After \'I Do\' that Joey has size seven feet, which he is secretive and defensive about. He also has a soft toy penguin named Hugsy (his \'bedtime penguin pal\'), whom he is very fond of and does not like to share.
+        He also doesn\'t like sharing food and has difficulty with simple mathematics (evidenced by his using a calculator to add together 500+500).
+        In sports, Joey likes the Los Angeles Dodgers, New York Yankees, and briefly the New York Mets in baseball, Los Angeles Clippers and New York Knicks in basketball, New York Giants and New York Jets in football, and the Detroit Red Wings and New York Rangers in ice hockey." />
+
+</LinearLayout>
